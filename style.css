@@ -1,6 +1,5 @@
 body {
-    background-color: rgb(171, 129, 192);
-}
+    background-color: rgb(171, 129, 192);}
 
 h1 {font-family: 'Poppins', sans-serif;
 text-align: center;}
@@ -8,3 +7,52 @@ text-align: center;}
 h2 { text-align: center;
 font-family: cursive;}
 
+.flex {
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+}
+.vuno{
+    background-color: blueviolet;
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    overflow:hidden;
+}
+
+.vdos {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+}
+.vtres {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.vcuatro {    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.vcinco{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.vseis{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.vsiete{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
