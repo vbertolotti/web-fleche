@@ -1,14 +1,29 @@
 body {
-    background-color: rgb(171, 129, 192);}
+    background-color: rgb(171, 129, 192);
+}
 
-h1 {font-family: 'Poppins', sans-serif;
-text-align: center;}
+h3 {
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
 
-h2 { text-align: center;
-font-family: 'Poppins', sans-serif;}
+h1 {
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+   font-size: 100px
+}
 
-p {font-family: 'Poppins', sans-serif;
-size: 1000px}
+h2 { 
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+p {
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px
+}
 
 .flex {
     display: flex;
@@ -56,8 +71,8 @@ size: 1000px}
     grid-template-columns: repeat( 3 ,500px);
     grid-template-rows: repeat( 3, 500px);
     gap:1em;
+    text-align: center;
 }
-
 .vseis{
     overflow: hidden;
     grid-column: 1 /2;
@@ -104,4 +119,8 @@ size: 1000px}
     grid-row: 2 /3;
     grid-column: 2;
     align-items: center;
+}
+
+ul {
+    font-family: 'Poppins', sans-serif;
 }
