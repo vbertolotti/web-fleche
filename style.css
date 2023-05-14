@@ -1,6 +1,8 @@
 body {
     background-color: rgb(171, 129, 192);
-}
+    margin: 10px;
+    padding: 20px;
+    }
 
 h3 {
     align-items: center;
@@ -30,6 +32,7 @@ p {
     flex-direction: row;
     background-color: antiquewhite;
 }
+      
 .vuno{
     background-color: blueviolet;
     width: 350px;
@@ -66,12 +69,13 @@ p {
     overflow: hidden;
 }
 
-.grid {
+.conteiner {
     display: grid;
     grid-template-columns: repeat( 3 ,500px);
     grid-template-rows: repeat( 3, 500px);
     gap:1em;
     text-align: center;
+    overflow: hidden;
 }
 .vseis{
     overflow: hidden;
@@ -81,13 +85,7 @@ p {
     justify-items: center;
           
 }
-.vsiete {
-    overflow:hidden;
-    grid-column: 1;
-    grid-row: 4 / 5;
-    margin: 20px;
-    justify-items: center;
-}
+
 .vocho {
     overflow:hidden;
     grid-column: 3/4;
@@ -96,8 +94,8 @@ p {
 }
 .vnueve {
     overflow:hidden;
-    grid-row: 4/ 5;
-    grid-column: 2/3;
+    grid-row: 3/ 5;
+    grid-column: 3/3;
     margin: 20px;
 }
 .vdiez {
@@ -124,3 +122,26 @@ p {
 ul {
     font-family: 'Poppins', sans-serif;
 }
+
+@media (max-width: 530px) 
+{    
+    body {
+        background-color: rgb(191, 166, 214);
+        text-align: center; 
+   }
+
+    h1 { 
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p, ul {
+        font-size: 18px;
+    }
+    .flex{ 
+        display: flex;
+        flex-direction: column; 
+    } 
+    
+} 
